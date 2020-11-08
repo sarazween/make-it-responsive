@@ -3,11 +3,11 @@
 <head>
 <title>Inova</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
-<header>
+<header id="home">
     <div class="header">
         <a href="index.html"><img alt="logo" src="logo-inova.png"></a>
         <div class ="menu">
@@ -20,9 +20,9 @@
             </ul>
         </div>
     </div>
- </header>    
-    
-<body> 
+ </header>
+
+<body>
  <section id="about">
     <div class="boks">
         <p>Inova is a newly formed company. We want to share our experience of frugal innovation. We are now hosting innovation camps anyone can join.</p>
@@ -31,5 +31,66 @@
         <p>Frugal innovation or frugal engineering is the process of reducing the complexity and cost of a good and its production.</p>
     </div>
  </section>
+
+ <!-- SEFA : Contact Section-->
+ <section id="contact">
+   <h2>Get in touch</h2>
+   <div class="rad">
+       <form>
+       <div class="radr">
+         <div class="kolonr">
+           <label for="melding">Message</label><br>
+           <textarea style="resize: none;" name="melding" form="kontakt_oss_no" rows="6" placeholder="Hi, i want to..."></textarea>
+         </div>
+       </div>
+         <div class="radr">
+           <div class="kolonr">
+             <label for="fornavn">First name</label><br>
+             <input type="text" id="fornavn" name="fornavn" placeholder="Ola"><br>
+           </div>
+           <div class="kolonr">
+             <label for="etternavn">Last name</label><br>
+             <input type="text" id="etternavn" name="etternavn" placeholder="Normann">
+           </div>
+         </div>
+         <div class="radr">
+           <div class="kolonr">
+             <label for="email">Email</label><br>
+             <input type="mail" id="email" name="email" placeholder="olanormann@hotmail.com">
+           </div>
+         </div>
+         <button class="send_btn">Send me to the sky</button>
+       </form>
+   </div>
+   <div class="rad">
+     <div class="kolonne">
+       <p><b style="font-size:20px;">Address</b><br>
+         Neverlandstreet 143<br>
+         PO 1543, Fantasyland
+       </p>
+     </div>
+     <div class="kolonne">
+       <p><b style="font-size:20px;">Contact</b><br>
+         <b>Mail: </b><a href="mailto:info@inova.com">info@inova.com</a><br>
+         <b>Tel: </b><a href="tel:(555) 555-1234">(555) 555-1234</a>
+       </p>
+     </div>
+     <div class="kolonne">
+       <p style="margin-bottom: 0;font-size:20px;"><b>Social</b><br></p>
+       <div class="social">
+         <a href="https://facebook.com"><img src="./img/social/facebook_logo.png"></a>
+         <a href="https://twitter.com"><img src="./img/social/twitter_logo.png"></a>
+         <a href="https://instagram.com"><img src="./img/social/instagram_logo.png"></a>
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <!-- SEFA : Footer-->
+ <footer>
+   &copy; 2020 Inova.
+   <a href="#home">Go to top</a>
+ </footer>
+
 
 </html>

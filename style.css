@@ -52,4 +52,123 @@ section#about{
  .boks {
      background-color: #ffdb00;
      padding: 40px;
- } 
+ }
+
+
+
+ /*----------- Sefa - Contact section -----------*/
+ html {
+   box-sizing: border-box;
+   background-color:
+ }
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
+ section#contact{
+   padding:50px 200px;
+   line-height: 2;
+   text-align: center;
+ }
+
+ #contact form{
+   background-color: #ffdb00;
+   padding: 40px 30px;
+ }
+
+ form .radr{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   text-align: left;
+ }
+ form input:focus,form textarea:focus{
+   outline: none;
+ }
+ form input,form textarea{
+   padding: 10px;
+   width: 100%;
+   padding:15px 10px;
+   border:0;
+ }
+
+ form .kolonr{
+   padding: 10px;
+   width: 100%;
+ }
+ .rad{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   margin-top:50px;
+ }
+
+ .rad>div {
+   flex: 0 33.3333%;
+   box-sizing:border-box
+ }
+
+ .kolonne{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   padding: 30px;
+   align-items: center;
+ }
+ .kolonne div.social{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+ }
+
+ .kolonne div.social img{
+   width: 100%;
+   max-width: 70px;
+   padding:20px;
+ }
+ .kolonne div.social a{
+   transition: .25s;
+ }
+ .kolonne div.social a:hover{
+   opacity: .2;
+ }
+
+ .send_btn{
+   margin-top:40px;
+   padding:15px 40px;
+   background-color: #000;
+   border:0;
+   color:#fcc701;
+   font-weight: bold;
+   cursor:pointer;
+   transition: .1s;
+ }
+
+ .send_btn:hover{
+   opacity: .5;
+ }
+
+ .logo_rad{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .social_logo{
+   max-width: 40px;
+   padding: 0 10px;
+ }
+
+ footer{
+   background-color: rgb(230, 230, 230);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 150px;
+   font-weight: 900;
+ }
